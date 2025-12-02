@@ -1,0 +1,19 @@
+public class TablaDelCinco {
+
+    public static void main(String[] args) {
+        
+        final int NUMERO_BASE = 5; 
+        
+        System.out.println("Tabla de multiplicar del " + NUMERO_BASE + ":");
+        System.out.println("-------------------------");
+        
+  
+        for (int i = 1; i <= 10; i++) {
+            
+            int resultado = NUMERO_BASE * i;
+            System.out.println(NUMERO_BASE + " x " + i + " = " + resultado);
+        }
+        
+        System.out.println("-------------------------");
+    }
+}
