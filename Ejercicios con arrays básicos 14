@@ -1,0 +1,14 @@
+public class NombresArray {
+
+    public static void main(String[] args) {
+
+        String[] nombres = {"Ana", "Carlos", "Marta"};
+        
+
+        
+        System.out.println("--- Array de Nombres ---");
+        System.out.println("El segundo nombre del array es: " + segundoNombre);
+        
+        System.out.println("------------------------");
+    }
+}
