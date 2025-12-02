@@ -1,0 +1,14 @@
+public class SaludosArray {
+
+    public static void main(String[] args) {
+        
+        String[] nombres = {"Ana", "Luis", "Elena"};
+        
+        System.out.println("--- Saludos del Sistema ---");
+        for (String nombre : nombres) {
+            System.out.println("Hola " + nombre);
+        }
+        
+        System.out.println("---------------------------");
+    }
+}
