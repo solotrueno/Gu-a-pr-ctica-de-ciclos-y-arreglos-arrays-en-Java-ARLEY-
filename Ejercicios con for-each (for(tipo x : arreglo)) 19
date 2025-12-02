@@ -1,0 +1,15 @@
+public class ArrayForEach {
+
+    public static void main(String[] args) {
+        
+        int[] numeros = {5, 10, 15, 20};
+        
+        System.out.println("--- Elementos del Array 'numeros' ---");
+        for (int numero : numeros) {
+            
+            System.out.println("Número: " + numero);
+        }
+        
+        System.out.println("-------------------------------------");
+    }
+}
