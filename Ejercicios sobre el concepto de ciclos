@@ -1,0 +1,13 @@
+public class CuentaRegresiva {
+
+    public static void main(String[] args) {
+        
+        System.out.println("Iniciando la cuenta regresiva desde 10:");
+        for (int i = 10; i >= 1; i--) {
+            // Imprimimos el valor actual de i en cada iteración
+            System.out.println(i);
+        }
+        
+        System.out.println("¡Fin de la cuenta regresiva!");
+    }
+}
