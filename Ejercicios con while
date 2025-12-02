@@ -1,0 +1,15 @@
+public class NumerosAscendentesWhile {
+
+    public static void main(String[] args) {
+        
+        int contador = 1;
+        
+        System.out.println("Mostrando números del 1 al 10:");
+            System.out.println(contador);
+            contador = contador + 1; 
+
+        }
+        
+        System.out.println("Proceso completado.");
+    }
+}
