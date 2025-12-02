@@ -1,0 +1,29 @@
+INICIO
+    // 1. DEFINIR VARIABLES
+    DEFINIR contador_estudiantes COMO ENTERO <- 0
+    DEFINIR quedan_estudiantes COMO LOGICO // Variable de control para el ciclo
+    
+    // 2. INICIALIZACIÓN
+    // Preguntamos si hay al menos un estudiante para comenzar la cuenta
+    ESCRIBIR "¿Hay estudiantes esperando para ser contados? (true/false):"
+    LEER quedan_estudiantes // Por ejemplo, el usuario ingresa 'true'
+    
+    // 3. CICLO MIENTRAS (WHILE)
+    // El ciclo se repite MIENTRAS la condición 'quedan_estudiantes' sea verdadera.
+    MIENTRAS quedan_estudiantes HACER
+        
+        // 4. PROCESO (Contar al estudiante)
+        contador_estudiantes <- contador_estudiantes + 1
+        ESCRIBIR "Estudiante contado. Total actual: " + contador_estudiantes
+        
+        // 5. ACTUALIZACIÓN (Prepararse para la siguiente iteración)
+        // Preguntamos si el ciclo debe continuar.
+        ESCRIBIR "¿Hay más estudiantes esperando? (true/false):"
+        LEER quedan_estudiantes // El usuario ingresará 'false' para terminar el ciclo
+        
+    FIN MIENTRAS
+    
+    // 6. RESULTADO FINAL
+    ESCRIBIR "El ciclo ha terminado."
+    ESCRIBIR "ASISTENCIA FINAL: " + contador_estudiantes
+FIN
