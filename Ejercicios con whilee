@@ -1,0 +1,16 @@
+public class ParesWhile {
+
+    public static void main(String[] args) {
+        int numeroPar = 2;
+        
+        System.out.println("Mostrando números pares del 2 al 20:");
+        while (numeroPar <= 20) {
+
+            System.out.println(numeroPar);
+            
+
+        }
+        
+        System.out.println("Proceso completado.");
+    }
+}
