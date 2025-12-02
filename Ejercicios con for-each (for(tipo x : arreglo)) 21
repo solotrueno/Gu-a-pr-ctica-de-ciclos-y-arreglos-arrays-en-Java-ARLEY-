@@ -1,0 +1,18 @@
+public class SumaArrayForEach {
+
+    public static void main(String[] args) {
+        
+        int[] datos = {10, 5, 20, 15, 30};
+        int sumaTotal = 0;
+        
+        System.out.println("Calculando la suma de los elementos: 10 + 5 + 20 + 15 + 30");
+        for (int elemento : datos) {
+            sumaTotal += elemento; 
+        }
+        
+
+        System.out.println("-------------------------------------");
+        System.out.println("La suma total de los elementos es: " + sumaTotal);
+        System.out.println("-------------------------------------");
+    }
+}
