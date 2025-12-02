@@ -1,0 +1,16 @@
+INICIO
+    // Definimos una variable de control o contador (i) como ENTERO.
+    DEFINIR i COMO ENTERO
+
+    // El ciclo PARA (FOR) se ejecuta 5 veces:
+    // Inicia en 1
+    // Se repite HASTA 5
+    // El contador AVANZA de 1 en 1
+    PARA i DESDE 1 HASTA 5 CON PASO 1 HACER
+        
+        // Acción a repetir en cada iteración del ciclo.
+        ESCRIBIR "Bienvenido al curso de Java"
+        
+    FIN PARA
+
+FIN
