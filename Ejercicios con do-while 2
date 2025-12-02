@@ -1,0 +1,18 @@
+public class CuentaRegresivaDoWhile {
+
+    public static void main(String[] args) {
+        
+        int contador = 10;
+        
+        System.out.println("Iniciando cuenta regresiva del 10 al 1 (usando do-while):");
+        
+        do {
+            System.out.println(contador);
+            
+            contador--; 
+            
+        } while (contador >= 1);
+        
+        System.out.println("¡Llegada! Proceso completado.");
+    }
+}
